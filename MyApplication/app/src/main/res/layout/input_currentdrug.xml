@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/current_med1"
+        android:hint="Name of Medicine" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/current_dose1"
+        android:layout_alignBottom="@+id/current_med1"
+        android:layout_toRightOf="@+id/current_med1"
+        android:layout_toEndOf="@+id/current_med1"
+        android:hint="Dose" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/current_rate1"
+        android:layout_toRightOf="@+id/current_dose1"
+        android:layout_alignBottom="@+id/current_dose1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Rate" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/current_med2"
+        android:layout_below="@+id/current_med1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Name of Medicine" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/current_dose2"
+        android:layout_alignTop="@+id/current_med2"
+        android:layout_toRightOf="@+id/current_med2"
+        android:layout_toEndOf="@+id/current_med2"
+        android:hint="Dose" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/current_rate2"
+        android:layout_alignTop="@+id/current_dose2"
+        android:layout_alignRight="@+id/current_rate1"
+        android:layout_alignEnd="@+id/current_rate1"
+        android:layout_alignBottom="@+id/current_dose2"
+        android:layout_toRightOf="@+id/current_dose2"
+        android:layout_toEndOf="@+id/current_dose2"
+        android:hint="Rate" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/current_med3"
+        android:layout_below="@+id/current_med2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Name of Medicine" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/current_dose3"
+        android:layout_alignBottom="@+id/current_med3"
+        android:layout_toRightOf="@+id/current_med2"
+        android:layout_toEndOf="@+id/current_med2"
+        android:hint="Dose" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/current_rate3"
+        android:layout_toRightOf="@+id/current_dose2"
+        android:layout_alignBottom="@+id/current_dose3"
+        android:layout_alignRight="@+id/current_rate2"
+        android:layout_alignEnd="@+id/current_rate2"
+        android:hint="Rate" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/current_med4"
+        android:layout_below="@+id/current_med3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Name of Medicine" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/current_dose4"
+        android:layout_alignBottom="@+id/current_med4"
+        android:layout_toRightOf="@+id/current_med3"
+        android:layout_toEndOf="@+id/current_med3"
+        android:hint="Dose" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/current_rate4"
+        android:layout_below="@+id/current_dose3"
+        android:layout_toRightOf="@+id/current_dose4"
+        android:layout_alignBottom="@+id/current_dose4"
+        android:layout_alignRight="@+id/current_rate3"
+        android:layout_alignEnd="@+id/current_rate3"
+        android:hint="Rate" />
+
+</RelativeLayout>
